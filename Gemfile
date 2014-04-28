@@ -27,6 +27,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 #install paperclip for image uploading
 gem "paperclip", "~> 3.0"
 
+#dropbox gem integration
+gem "paperclip-dropbox", ">= 1.1.7"
+
+#figaro environment variables for valuable key protection
+gem 'figaro', '~> 0.7.0'
+
 #gem for production environment
 group :production do
 	gem 'pg'
