@@ -33,6 +33,9 @@ gem "paperclip-dropbox", ">= 1.1.7"
 #figaro environment variables for valuable key protection
 gem 'figaro', '~> 0.7.0'
 
+#added devise user management
+gem 'devise'
+
 #gem for production environment
 group :production do
 	gem 'pg'
